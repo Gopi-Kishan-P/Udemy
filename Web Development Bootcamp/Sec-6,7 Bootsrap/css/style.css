@@ -1,0 +1,149 @@
+.navbar-brand{
+    font-size: 2rem;
+}
+.top-nav{
+    padding-left: 0;
+}
+.nav-link{
+    font-size: 1.2rem;
+}
+
+#title{
+    background-color: #ff4c68;
+    color: white;
+    padding-bottom: 2rem;
+}
+#title-div{
+    margin-top: 1rem;
+}
+
+h1{
+    /* font-family: Montserrat-Black; */
+    font-weight: 1000;
+    font-size: 3rem;
+    line-height: 1.5;
+    margin: 2rem 0;
+}
+
+.logo{
+    width: 20px;
+    filter: invert(100%);
+    margin: 0 6px 6px 0;
+}
+#play-icon{
+    filter:invert(0%);
+}
+
+.down-btn{
+    margin: 0 0.5rem 2rem 0;
+}
+
+#iphone{
+    width: 60%;
+    transform: rotate(30deg);
+    margin: 0.5rem 3rem;
+    position: absolute;
+    left: 10%;
+}
+
+.container-fluid{
+    padding: 3% 15%;
+}
+
+#features{
+    margin:0 0 5rem 0;
+    text-align: center;
+    position: relative;
+    background-color: #fff;
+}
+.fet-logo{
+    width: 90px;
+    margin: 10px;
+    filter: invert(77%) sepia(40%) saturate(6589%) hue-rotate(309deg) brightness(100%) contrast(190%);
+}
+.fet-logo:hover{
+    filter: invert(49%) sepia(61%) saturate(4747%) hue-rotate(324deg) brightness(104%) contrast(101%);
+}
+.fet-h3{
+    font-weight: bolder;
+    padding: 1rem 0;
+}
+.fet-p{
+    padding: 0 2rem;
+}
+
+#testimonials{
+    text-align: center;
+    background-color: #ef8172;
+    color: white;
+}
+.padd{
+    padding: 7% 15%;
+}
+.test-h2{
+    font-weight: 800;
+}
+.test-img{
+    border-radius: 100%;
+    width: 7rem;
+    margin: 1.3rem;
+}
+
+#press{
+    background-color: #ef8172;   
+    text-align: center;
+    padding-bottom: 5%;
+}
+
+.press-img{
+    width: 15rem;
+    margin: 1rem 1.5rem;
+}
+
+#pricing{
+    padding: 5% 15%;
+    text-align: center;
+}
+.price{
+    padding: 1.3rem;
+}
+
+#cta{
+    background-color: #ff4c68;
+    text-align: center;
+    color: #fff;
+    padding:5rem 0.5rem;
+}
+.cta-h3{
+    font-weight: 1000;
+    padding:0 25%;
+    font-size: 2.5rem;
+}
+
+.bottom-btn{
+    margin: 3rem 0.3rem 0;
+}
+
+footer{
+    text-align: center;
+    padding: 5px;
+    font-size: 1.5rem;
+    font-weight: 500;
+}
+
+@media screen and (max-width:992px){
+    .title-div{
+        text-align: center;
+    }
+    #iphone{
+        position: static;
+        transform: rotate(0);
+        /* width: 50%; */
+    }
+    .cta-h3{
+        padding: 5%;
+    }
+    .extra{
+        display: none;
+    }
+}
