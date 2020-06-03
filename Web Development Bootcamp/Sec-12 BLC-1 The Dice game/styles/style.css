@@ -1,0 +1,33 @@
+body{
+    margin: 0;
+    padding: 0;
+    background-color: #03a603;
+    text-align: center;
+}
+
+.container{
+    text-align: center;
+    margin: auto;
+}
+
+h1{
+    text-align: center;
+    color: #a20101;
+
+    font-size: 4rem;
+}
+
+p{
+    font-size: 1.5rem;
+    color: blue;
+    font-weight: bolder;
+}
+
+.dice{
+    text-align: center;
+    display: inline-block;
+}
+
+.dice img{
+    width: 40%;
+}
